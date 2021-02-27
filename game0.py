@@ -11,7 +11,7 @@ screen=pygame.display.set_mode((width, height))
 player = pygame.image.load("resources/images/dude.png")
 
 # 4 - keep looping through
-while 0:
+while True:
     # 5 - clear the screen before drawing it again
     screen.fill(0)
     # 6 - draw the screen elements
